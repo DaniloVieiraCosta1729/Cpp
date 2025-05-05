@@ -1,6 +1,6 @@
 #include <iostream>
 
-void mostra(const char* texto)
+void mostrar(const char* texto)
 {
 	std::cout << texto << std::endl;
 }
