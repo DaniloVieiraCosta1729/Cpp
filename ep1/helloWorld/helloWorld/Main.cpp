@@ -1,7 +1,7 @@
 #include <iostream>
-
-void mostra(const char* texto);
+#include "log.h"
 int multiplicar(int a, int b);
+void iniciaMostra(const char* texto);
 
 
 int main()
@@ -36,7 +36,7 @@ int main()
 	std::cout << z << std::endl;
 	std::cout << *i << std::endl;
 
-	
+	iniciaMostra("Testando.");
 
 	return 0;
 }
